@@ -8,6 +8,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<b> My first flask application </b>'
+    return {"message":"hi"}
 
 
